@@ -22,4 +22,4 @@ The copper wire has been wrapped around the shaft and connected to the commutato
 
 Two copper contacts have been placed either side of the commutator. These in standard rotors are termed the 'brushes' and are used to connect the supply to both of the commutators alternatively.
 
-
+Note - Although in the image the connections don't mate later adjustment ensured that they did.
