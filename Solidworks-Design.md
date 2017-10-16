@@ -129,9 +129,28 @@ These will be added to the shaft's connector and will break the IR beam making s
 
 ## Production 
 
+To start fabricating the parts a spool of 1.75mm PLA material needed to be ordered. I purchased 1kg of green from Rapid electronics. 
+
+![Spool of green 1.75mm PLA material](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Development-Images/IMG_20171011_094309.jpg)
+
+The parts then needed to be organised corrects on the 3D printer bed. This stage is crucial as the wrong orientation of components can results in a failed printing (overhangs etc). A package called 'Cura' was used to place them and also check that printing would be possible by using the slicer view tool. 
+
+The output of this file is of a g code format. Contained within this binary file is the positional information for the printer to follow. 
+
+![Slicer Software](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Development-Images/Slicer.JPG)
+
+![Image of the printing process](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Development-Images/IMG_20171012_110252.jpg)
+
+![Final piece](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Development-Images/IMG_20171013_154813.jpg)
 
 
 
+
+
+
+## Misc Images 
+
+![Winding Process](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Development-Images/IMG_20171016_100850.jpg)
 
 
 
