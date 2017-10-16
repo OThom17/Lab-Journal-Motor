@@ -18,8 +18,8 @@ The pins will act as an axel allowing for free rotation.
 
 The copper wire has been wrapped around the shaft and connected to the commutator through a solder joint. The ends of the copper wire have been stripped of their plastic covering to allow for a good connection.
 
-![Image of final design complete with supply connections](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Initial-Design-Photos/IMG_20171002_105733.jpg)
+![Image of final design complete with supply connections](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Initial-Design-Photos/IMG_20171009_094304.jpg)
 
 Two copper contacts have been placed either side of the commutator. These in standard rotors are termed the 'brushes' and are used to connect the supply to both of the commutators alternatively.
 
-Note - Although in the image the connections don't mate later adjustment ensured that they did.
+
