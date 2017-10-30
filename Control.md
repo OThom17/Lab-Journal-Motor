@@ -24,7 +24,7 @@ To keep the design simple and compact the LED and photo-transitor have been wire
 
 
 
-
+	
 - Software Design and Dev.
 
 
@@ -34,7 +34,9 @@ The program will detect the time it takes for the shaft to perform a complete ro
 
 If the plate isn't blocking the beam when the sample is being taken the 'pulseIn' routine will wait until it is before taking the start time. 
 
-With the circumference 
+With the circumference of the slit known the speed can be calculated easily. 
+
+
 
 
 
