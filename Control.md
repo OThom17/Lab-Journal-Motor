@@ -29,13 +29,11 @@ To keep the design simple and compact the LED and photo-transitor have been wire
 
 Open loop control was achieved through simply following the tutorial and running the code below.
 
-'''
+"""
+
 /*************************************************************
 Motor Shield 1-Channel DC Motor Demo
 by Randy Sarafan
-
-For more information see:
-https://www.instructables.com/id/Arduino-Motor-Shield-Tutorial/
 
 *************************************************************/
 
@@ -72,15 +70,16 @@ void loop(){
   delay(1000);
   
 }
-'''
 
-# Comments on the code
+"""
+
+## Comments on the code
 
 - Speed ranges from 0 - 255 giving a resolution of 256
 - Pin 12 engages motor A while pin 9 brakes it
 - Pin three has the analog speed value written to when enabled
 
-# Adding the Encoder Code
+## Adding the Encoder Code
 
 
 
