@@ -1,12 +1,14 @@
-## Motor Control with Encoder Feedback
+# Motor Control with Encoder Feedback
 
-# Encoder code development
+## Encoder code development
 
 - Hardware Elements
 
-These will be connected to the shaft and rotate thus breaking the beam with every rotation. Two have been made,with more slits the sensor ought to have a better resolution and therefore a more accurate speed reading. 
+These will be connected to the shaft and rotate thus breaking the beam with every rotation. Two have been made, with more slits the sensor ought to have a better resolution and therefore a more accurate speed reading. 
 
 ![Images of encoder plates](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Development-Images/Printedslits.jpg)
+
+As described in the design document this component will hold the LED opposite the transitor.
 
 ![Image of LED holding plate](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Development-Images/PrintedLDRH.jpg)
 
@@ -19,17 +21,59 @@ To keep the design simple and compact the LED and photo-transitor have been wire
 ![Imaage of inline LDR circuitry](https://github.com/OThom17/Lab-Journal-Motor/blob/master/Development-Images/LDR.jpg)
 
 
+
+
+
+
 - Software Design and Dev.
 
 
+Version 1
+
+The program will detect the time it takes for the shaft to perform a complete rotation of the slit. To do this it'll wait until the sensor read's HIGH (Beam is being blocked) and then start timing in ms. the timer will stop once the sensor reads a LOW (When the encoder plate isn't obstructing the beam.
+
+If the plate isn't blocking the beam when the sample is being taken the 'pulseIn' routine will wait until it is before taking the start time. 
+
+With the circumference 
 
 
 
-# Controlling the motor with the Arduino board 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Controlling the motor with the Arduino board 
 
 Open loop control was achieved through simply following the tutorial and running the code below.
 
-"""
+```
 
 /*************************************************************
 Motor Shield 1-Channel DC Motor Demo
@@ -71,7 +115,7 @@ void loop(){
   
 }
 
-"""
+```
 
 ## Comments on the code
 
