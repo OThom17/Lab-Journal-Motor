@@ -10,9 +10,9 @@ Therefore the physcial design will need to consider:
 - A component which when rotating will break the beam.
 
 
-##Hardware
+## Hardware
 
-- Breaking the beam
+###Breaking the beam
 
 These plates will be connected to the shaft and rotate breaking the beam with every rotation. Two have been made, more slits ought to increase the accuracy of the sensor. 
 
@@ -32,9 +32,8 @@ Image showing the in-line circuitary.
 
 
 
-##Software
+## Software
 
-Version 1
 
 The program will detect the time it takes for the shaft to perform a complete rotation of the slit. To do this it'll wait until the sensor read's HIGH (Beam is being blocked) and then start timing in ms. the timer will stop once the sensor reads a LOW (When the encoder plate isn't obstructing the beam.
 
