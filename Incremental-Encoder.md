@@ -45,6 +45,7 @@ With the circumference of the slit known the speed can be calculated.
 
 ## Adding the Encoder Code
 
+Provided Code
 
 ```
 constbyte ledPin= 13;
@@ -72,13 +73,53 @@ The angular velocity is calculable using the following two variables:
 
 - Time
 
-Timer is enabled when the line is broken and stopped when the connection is back ]
+Timer is enabled when the line is broken and stopped when the connection is back
 
 - Angle of rotation
 
 Constant value, initially the single slit plate has been used.
 
 *** Provide angle of rotation for single slitted design.
+
+
+Developed Code
+
+Instead of using the attachInterrupt function the PulseIn command allows you to select a targer pin, declare whether it should time a HIGH or LOW pulse and provide a time-out limit for error situations.
+
+Here is the basic framework of the proposed program w/o the encoder plate specifics.
+
+```
+const int Photo_Trans = A0;
+
+
+
+void setup() {
+  pinMode(Photo_Trans, INPUT);
+  Serial.begin(9600);
+  Serial.println("Encoder Software Version 1 30th October");
+}
+
+void loop() {
+
+  float Period[3] = {0.0,0.0,0.0};
+
+  for (int i = 0; i < 3; i++){
+  Period[i] = pulseIn(Photo_Trans, HIGH); // Returns the length of the inputted pulse
+  
+ // Insert code with circumference specifics
+  
+
+  }
+  float Period_Avg = ((Period[1] + Period[2] + Period[3])/3);   // Determine the average speed over three samples
+
+  Serial.print("Average Period: ");
+  Serial.println(Period_Avg);
+  
+}
+
+```
+
+
 
 
 
