@@ -12,7 +12,7 @@ Therefore the physcial design will need to consider:
 
 ## Hardware
 
-###Breaking the beam
+### Breaking the beam
 
 These plates will be connected to the shaft and rotate breaking the beam with every rotation. Two have been made, more slits ought to increase the accuracy of the sensor. 
 
