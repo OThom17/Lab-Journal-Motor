@@ -84,9 +84,9 @@ The speed of the motor is written as an analogue value to the H-Bridge and is tu
 Full Speed
 
 ```
-//..
+// ...
   analogWrite(3, 255);  
-//..
+// ...
 ```
 Half Speed
 ```
